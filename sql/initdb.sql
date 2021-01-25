@@ -1,0 +1,3 @@
+BEGIN;
+
+\i ./listings.sql

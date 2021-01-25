@@ -1,0 +1,158 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "log": "readonly",
+    "require": "readonly",
+    "swal": "readonly",
+    "module": "writable"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "extends": [
+    "plugin:vue/essential"
+  ],
+  "rules": {
+    "rest-spread-spacing": [
+      "error",
+      "never"
+    ],
+    "no-with": [
+      "error"
+    ],
+    "no-throw-literal": [
+      "error"
+    ],
+    "no-tabs": [
+      "error"
+    ],
+    "no-mixed-spaces-and-tabs": [
+      "error"
+    ],
+    "no-irregular-whitespace": [
+      "error",
+      {
+        "skipStrings": false,
+        "skipRegExps": false,
+        "skipTemplates": false
+      }
+    ],
+    "dot-location": [
+      "error",
+      "property"
+    ],
+    "operator-linebreak": [
+      "error",
+      "before"
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
+    "space-infix-ops": [
+      "error"
+    ],
+    "eqeqeq": [
+      "error"
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-unused-vars": [
+      "error"
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "func-call-spacing": [
+      "error",
+      "never"
+    ],
+    "no-constant-condition": [
+      "error"
+    ],
+    "no-lone-blocks": [
+      "error"
+    ],
+    "no-redeclare": [
+      "error"
+    ],
+    "no-template-curly-in-string": [
+      "error"
+    ],
+    "no-trailing-spaces": [
+      "error",
+      {
+        "skipBlankLines": false,
+        "ignoreComments": false
+      }
+    ],
+    "no-unneeded-ternary": [
+      "error"
+    ],
+    "no-unreachable": [
+      "error"
+    ],
+    "no-useless-computed-key": [
+      "error"
+    ],
+    "prefer-const": [
+      "error"
+    ],
+    "space-before-blocks": [
+      "error",
+      {
+        "keywords": "always",
+        "classes": "always"
+      }
+    ],
+    "yoda": [
+      "error",
+      "never"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "vue/script-indent": [
+      "error",
+      2,
+      {
+        "baseIndent": 1,
+        "switchCase": 1
+      }
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ]
+  },
+  "overrides": []
+}
