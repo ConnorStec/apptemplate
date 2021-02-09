@@ -1,5 +1,5 @@
 {
-  "name": "ceasetek app template",
+  "name": "express-vue-template",
   "version": "1.0.0",
   "description": "Essentially boilerplate code to wire up an ExpressJS/PostgreSQL backend with a VueJS frontend.",
   "main": "index.js",
