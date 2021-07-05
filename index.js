@@ -6,6 +6,7 @@ process.on('unhandledRejection', function (reason, p) {
   console.error(`Possible unhandled rejection at: Promise ${JSON.stringify(p)}, Reason ${reason}`);
 });
 
+// https support via https://web.dev/how-to-use-local-https/
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
