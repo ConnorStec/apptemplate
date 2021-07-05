@@ -9,5 +9,9 @@ module.exports = {
         logLevel: 'debug'
       }
     }
-  }
+  },
+
+  transpileDependencies: [
+    'vuetify'
+  ]
 }
