@@ -5,3 +5,6 @@
 node_modules
 
 notes.txt
+
+# pem files
+*.pem
